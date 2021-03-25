@@ -6,7 +6,7 @@ function GetUniqueString(length, str){
 		str += AlphaNumericChars.charAt(Math.floor(Math.random() * 61));
 		length --;
 	}
-	
+
 	return str;
 }
 
